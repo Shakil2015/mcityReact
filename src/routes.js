@@ -1,12 +1,16 @@
 import React from 'react';
+import Layout from './Resources/Hoc/Layout';
 
-function App() {
-  return (
-    <div className="App">
-     hi shakil
-     
-    </div>
-  );
+const Routes=(props)=>{
+  return(
+    <Layout>
+      Shakil
+      fffff
+      ffffff
+      fffff
+    </Layout>
+
+  )
 }
 
-export default App;
+export default Routes;
